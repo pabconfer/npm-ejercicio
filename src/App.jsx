@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-
+import confetti from 'canvas-confetti'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +28,21 @@ function App() {
         >
           Count is {count}
         </button>
+
+        {/* NUEVO BOTÓN: LANZAR CONFETI*/}
+        <button
+          type="button"
+          onClick={() => {
+            confetti({
+              particleCount: 150,
+              spread: 80,
+              origin: { y: 0.6 }
+            })
+          }}
+        >
+          Lanzar confeti 🎉
+        </button>
+
       </section>
 
       <div className="ticks"></div>
