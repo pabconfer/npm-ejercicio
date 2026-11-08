@@ -54,4 +54,8 @@ La carpeta `node_modules/` no necesita subirse a GitHub, porque todas las depend
 
 ## 6. Despliegue
 
-**Enlace a la aplicación publicada:** pendiente de añadir al finalizar el despliegue en GitHub Pages.
+La aplicación está publicada en GitHub Pages.
+
+**Web:** https://pabconfer.github.io/npm-ejercicio-deploy/
+
+**Repositorio del despliegue:** https://github.com/pabconfer/npm-ejercicio-deploys
